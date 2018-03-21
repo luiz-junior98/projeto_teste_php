@@ -33,7 +33,7 @@
 				if (!httpRequest) {
 					alert("Erro ao tentar criar uma instância do objeto XMLHttpRequest");
 				}
-
+				//requests Ajax
 				httpRequest.onreadystatechange = situacaoRequisicao;
 				httpRequest.open('GET',url);
 				httpRequest.send(); 
